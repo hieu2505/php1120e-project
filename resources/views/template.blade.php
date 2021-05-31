@@ -16,10 +16,7 @@
                     });
                 });
             </script>
-
-            @include('layout.slider')
-
-            @include('layout.content')
+            @yield('wrapper')
         </div>
        
        @include('layout.footer')

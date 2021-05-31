@@ -11,14 +11,16 @@
 |
 */
 
-Route::get('/', function() {
+/*Route::get('/', function() {
     return view('template');
+});*/
+Route::get('/', function() {
+    return view('index');
+}); 
+Route::get('product', function() {
+    return view('product.cpu-product');
 });
 /*
-Route::get('contact', function() {
-    return view('pages.contact');
-});
-
 Route::get('/', function () {
 	$name   = 'TungTK';
 	$age    = 30;

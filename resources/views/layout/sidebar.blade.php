@@ -37,7 +37,7 @@
                                             </div>
                                         </li>
                                         <li>
-                                            <a href="cpu-bo-vi-xu-ly.html" style="width: calc(100% - 30px);"><img
+                                            <a href="{{url('/product')}}" style="width: calc(100% - 30px);"><img
                                                     src="public/images/logo/cpu.jpg" alt="CPU - BỘ VI XỬ LÝ">CPU - BỘ VI
                                                 XỬ LÝ</a>
 
