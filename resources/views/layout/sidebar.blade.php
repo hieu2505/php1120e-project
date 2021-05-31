@@ -6,7 +6,7 @@
                                 <div class="top-category">
                                     <h3 class="title-category">DANH MỤC SẢN PHẨM<i class="fa fa-bars"></i></h3>
                                 </div>
-                                <div class="nav-category-home hello">
+                                <div class="nav-category-home">
                                     <ul>
                                         <li>
                                             <a href="pc-workstation.html" style="width: calc(100% - 30px);"><img

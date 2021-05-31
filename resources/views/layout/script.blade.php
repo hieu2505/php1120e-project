@@ -215,7 +215,7 @@
             $('#main-menu1 > ul > li').attr('style', 'width: calc(100% / ' + $('#main-menu1 > ul > li').length + ')');
 
             if (jQuery(window).width() <= 768) {
-                $('.main-slider').attr('style', "padding-top: " + $('.nav-category-home.hello').height() + "px");
+                $('.main-slider').attr('style', "padding-top: " + $('.nav-category-home').height() + "px");
                 $('.css-icon-plus').click(function () {
                     if (jQuery(this).next().css('display') == 'none') {
 
