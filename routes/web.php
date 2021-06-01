@@ -15,7 +15,7 @@
     return view('template');
 });*/
 Route::get('/', function() {
-    return view('index');
+    return view('product.index');
 }); 
 Route::get('product', function() {
     return view('product.cpu-product');
