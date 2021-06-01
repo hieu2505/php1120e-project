@@ -1,4 +1,11 @@
-<section class="top-content">
+@extends('index')
+@section('content')
+    <div id="main" class="wrapper">
+            @include('layout.sidebar')
+            
+            @include('layout.slider-sale')
+
+            <section class="top-content">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-9 col-sm-9 col-xs-12 fade-left animated fadeInLeft col-edit-4">
@@ -18,16 +25,16 @@
                                                         <div class="image">
                                                             <a href="pc-intel-i7-10700-ram-16gb-rtx-2060-6gb.html"
                                                                 class="thubmail-img"><img
-                                                                    src="public/images/products/pc-i7-10700-16gb-rtx-2060-6gb.jpg"
+                                                                    src="assets/images/products/pc-i7-10700-16gb-rtx-2060-6gb.jpg"
                                                                     alt="PC Intel i7 10700/ Ram 16GB/ RTX 2060 6GB">
                                                             </a>
                                                             <a href="pc-intel-i7-10700-ram-16gb-rtx-2060-6gb.html"
                                                                 class="quick-view" data-link-action="quickview">
                                                                 <i class="material-icons search"></i> Quick view
                                                             </a>
-                                                            <!-- <div class="new-pr"><img src="public/images/new.png" alt="">
+                                                            <!-- <div class="new-pr"><img src="assets/images/new.png" alt="">
                                                     </div> -->
-                                                            <div class="sale-pr"><img src="public/images/sale.png"
+                                                            <div class="sale-pr"><img src="assets/images/sale.png"
                                                                     alt="">
                                                             </div>
                                                         </div>
@@ -58,16 +65,16 @@
                                                         <div class="image">
                                                             <a href="pc-intel-i7-10700-ram16gb-gtx-1660-6gb.html"
                                                                 class="thubmail-img"><img
-                                                                    src="public/images/products/i7-10700-16gb-ram-gtx-1660-6gb.jpg"
+                                                                    src="assets/images/products/i7-10700-16gb-ram-gtx-1660-6gb.jpg"
                                                                     alt="PC Intel i7 10700/ Ram 16GB / GTX 1660 6GB">
                                                             </a>
                                                             <a href="pc-intel-i7-10700-ram16gb-gtx-1660-6gb.html"
                                                                 class="quick-view" data-link-action="quickview">
                                                                 <i class="material-icons search"></i> Quick view
                                                             </a>
-                                                            <!-- <div class="new-pr"><img src="public/images/new.png" alt="">
+                                                            <!-- <div class="new-pr"><img src="assets/images/new.png" alt="">
                                                     </div> -->
-                                                            <div class="sale-pr"><img src="public/images/sale.png"
+                                                            <div class="sale-pr"><img src="assets/images/sale.png"
                                                                     alt="">
                                                             </div>
                                                         </div>
@@ -98,16 +105,16 @@
                                                         <div class="image">
                                                             <a href="pc-intel-i5-10400-ram-16gb-vga-gtx-1660-6gb.html"
                                                                 class="thubmail-img"><img
-                                                                    src="public/images/products/i5-10400-16gb-ram-gtx-16606gb.jpg"
+                                                                    src="assets/images/products/i5-10400-16gb-ram-gtx-16606gb.jpg"
                                                                     alt="PC Intel I5 10400/Ram 16GB/ VGA GTX 1660 6GB">
                                                             </a>
                                                             <a href="pc-intel-i5-10400-ram-16gb-vga-gtx-1660-6gb.html"
                                                                 class="quick-view" data-link-action="quickview">
                                                                 <i class="material-icons search"></i> Quick view
                                                             </a>
-                                                            <!-- <div class="new-pr"><img src="public/images/new.png" alt="">
+                                                            <!-- <div class="new-pr"><img src="assets/images/new.png" alt="">
                                                     </div> -->
-                                                            <div class="sale-pr"><img src="public/images/sale.png"
+                                                            <div class="sale-pr"><img src="assets/images/sale.png"
                                                                     alt="">
                                                             </div>
                                                         </div>
@@ -138,16 +145,16 @@
                                                         <div class="image">
                                                             <a href="pc-intel-i5-10500-16gb-ram-vga-rx-550-4gb.html"
                                                                 class="thubmail-img"><img
-                                                                    src="public/images/products/i5-10500-16gb-ram-rx550.jpg"
+                                                                    src="assets/images/products/i5-10500-16gb-ram-rx550.jpg"
                                                                     alt="PC Intel I5 10500/16GB Ram/ VGA RX 550 4GB">
                                                             </a>
                                                             <a href="pc-intel-i5-10500-16gb-ram-vga-rx-550-4gb.html"
                                                                 class="quick-view" data-link-action="quickview">
                                                                 <i class="material-icons search"></i> Quick view
                                                             </a>
-                                                            <!-- <div class="new-pr"><img src="public/images/new.png" alt="">
+                                                            <!-- <div class="new-pr"><img src="assets/images/new.png" alt="">
                                                     </div> -->
-                                                            <div class="sale-pr"><img src="public/images/sale.png"
+                                                            <div class="sale-pr"><img src="assets/images/sale.png"
                                                                     alt="">
                                                             </div>
                                                         </div>
@@ -178,16 +185,16 @@
                                                         <div class="image">
                                                             <a href="pc-intel-i5-10600-ram-16gb-vga-rtx-2060-6gb.html"
                                                                 class="thubmail-img"><img
-                                                                    src="public/images/products/pc-i5-10600-16gb-rtx-2060-6gb.jpg"
+                                                                    src="assets/images/products/pc-i5-10600-16gb-rtx-2060-6gb.jpg"
                                                                     alt="PC Intel I5 10600/Ram 16GB/ VGA RTX 2060 6GB">
                                                             </a>
                                                             <a href="pc-intel-i5-10600-ram-16gb-vga-rtx-2060-6gb.html"
                                                                 class="quick-view" data-link-action="quickview">
                                                                 <i class="material-icons search"></i> Quick view
                                                             </a>
-                                                            <!-- <div class="new-pr"><img src="public/images/new.png" alt="">
+                                                            <!-- <div class="new-pr"><img src="assets/images/new.png" alt="">
                                                     </div> -->
-                                                            <div class="sale-pr"><img src="public/images/sale.png"
+                                                            <div class="sale-pr"><img src="assets/images/sale.png"
                                                                     alt="">
                                                             </div>
                                                         </div>
@@ -218,16 +225,16 @@
                                                         <div class="image">
                                                             <a href="pc-intel-i5-10600-16gb-ram-vga-gtx-1660-super-6gb.html"
                                                                 class="thubmail-img"><img
-                                                                    src="public/images/products/i5-10600-16gb-ram-gtx-1660s-6gb.jpg"
+                                                                    src="assets/images/products/i5-10600-16gb-ram-gtx-1660s-6gb.jpg"
                                                                     alt="PC Intel I5 10600/16GB Ram/ VGA GTX 1660 Super 6GB">
                                                             </a>
                                                             <a href="pc-intel-i5-10600-16gb-ram-vga-gtx-1660-super-6gb.html"
                                                                 class="quick-view" data-link-action="quickview">
                                                                 <i class="material-icons search"></i> Quick view
                                                             </a>
-                                                            <!-- <div class="new-pr"><img src="public/images/new.png" alt="">
+                                                            <!-- <div class="new-pr"><img src="assets/images/new.png" alt="">
                                                     </div> -->
-                                                            <div class="sale-pr"><img src="public/images/sale.png"
+                                                            <div class="sale-pr"><img src="assets/images/sale.png"
                                                                     alt="">
                                                             </div>
                                                         </div>
@@ -259,16 +266,16 @@
                                                         <div class="image">
                                                             <a href="pc-intel-i5-10400-ram-16gb-vga-gtx-1660-super-6gb.html"
                                                                 class="thubmail-img"><img
-                                                                    src="public/images/products/pc-i5-10400-16gb-gtx-1660s.jpg"
+                                                                    src="assets/images/products/pc-i5-10400-16gb-gtx-1660s.jpg"
                                                                     alt="PC Intel I5 10400/Ram 16GB/ VGA GTX 1660 Super 6GB">
                                                             </a>
                                                             <a href="pc-intel-i5-10400-ram-16gb-vga-gtx-1660-super-6gb.html"
                                                                 class="quick-view" data-link-action="quickview">
                                                                 <i class="material-icons search"></i> Quick view
                                                             </a>
-                                                            <!-- <div class="new-pr"><img src="public/images/new.png" alt="">
+                                                            <!-- <div class="new-pr"><img src="assets/images/new.png" alt="">
                                                     </div> -->
-                                                            <div class="sale-pr"><img src="public/images/sale.png"
+                                                            <div class="sale-pr"><img src="assets/images/sale.png"
                                                                     alt="">
                                                             </div>
                                                         </div>
@@ -300,16 +307,16 @@
                                                         <div class="image">
                                                             <a href="pc-intel-i5-10400-ram-16gb-vga-rtx-2060-6gb.html"
                                                                 class="thubmail-img"><img
-                                                                    src="public/images/products/pc-i5-10400-16gb-rtx-2060-6gb.jpg"
+                                                                    src="assets/images/products/pc-i5-10400-16gb-rtx-2060-6gb.jpg"
                                                                     alt="PC Intel I5 10400/Ram 16GB/ VGA RTX 2060 6GB">
                                                             </a>
                                                             <a href="pc-intel-i5-10400-ram-16gb-vga-rtx-2060-6gb.html"
                                                                 class="quick-view" data-link-action="quickview">
                                                                 <i class="material-icons search"></i> Quick view
                                                             </a>
-                                                            <!-- <div class="new-pr"><img src="public/images/new.png" alt="">
-                                                    </div> -->
-                                                            <div class="sale-pr"><img src="public/images/sale.png"
+                                                            <div class="new-pr"><img src="assets/images/new.png" alt="">
+                                                    </div>
+                                                            <div class="sale-pr"><img src="assets/images/sale.png"
                                                                     alt="">
                                                             </div>
                                                         </div>
@@ -340,16 +347,16 @@
                                                         <div class="image">
                                                             <a href="pc-intel-i5-10500-16gb-ram-rtx-2060-6gb.html"
                                                                 class="thubmail-img"><img
-                                                                    src="public/images/products/pc-i5-10500-16gb-rtx-2060-6gb.jpg"
+                                                                    src="assets/images/products/pc-i5-10500-16gb-rtx-2060-6gb.jpg"
                                                                     alt="PC Intel i5 10500/16GB Ram/ RTX 2060 6GB">
                                                             </a>
                                                             <a href="pc-intel-i5-10500-16gb-ram-rtx-2060-6gb.html"
                                                                 class="quick-view" data-link-action="quickview">
                                                                 <i class="material-icons search"></i> Quick view
                                                             </a>
-                                                            <!-- <div class="new-pr"><img src="public/images/new.png" alt="">
+                                                            <!-- <div class="new-pr"><img src="assets/images/new.png" alt="">
                                                     </div> -->
-                                                            <div class="sale-pr"><img src="public/images/sale.png"
+                                                            <div class="sale-pr"><img src="assets/images/sale.png"
                                                                     alt="">
                                                             </div>
                                                         </div>
@@ -380,16 +387,16 @@
                                                         <div class="image">
                                                             <a href="pc-intel-i7-10700-16gb-ram-gtx-1660-super-6gb.html"
                                                                 class="thubmail-img"><img
-                                                                    src="public/images/products/pc-i7-10700-16gb-gtx-1660s-6gb.jpg"
+                                                                    src="assets/images/products/pc-i7-10700-16gb-gtx-1660s-6gb.jpg"
                                                                     alt="PC Intel i7 10700/ 16GB Ram/ GTX 1660 Super 6GB">
                                                             </a>
                                                             <a href="pc-intel-i7-10700-16gb-ram-gtx-1660-super-6gb.html"
                                                                 class="quick-view" data-link-action="quickview">
                                                                 <i class="material-icons search"></i> Quick view
                                                             </a>
-                                                            <!-- <div class="new-pr"><img src="public/images/new.png" alt="">
+                                                            <!-- <div class="new-pr"><img src="assets/images/new.png" alt="">
                                                     </div> -->
-                                                            <div class="sale-pr"><img src="public/images/sale.png"
+                                                            <div class="sale-pr"><img src="assets/images/sale.png"
                                                                     alt="">
                                                             </div>
                                                         </div>
@@ -420,16 +427,16 @@
                                                         <div class="image">
                                                             <a href="pc-intel-i7-10700k-16gb-ram-vga-gtx-1660-super-6gb.html"
                                                                 class="thubmail-img"><img
-                                                                    src="public/images/products/pc-i7-10700k-16gb-gtx-1660s-6gb.jpg"
+                                                                    src="assets/images/products/pc-i7-10700k-16gb-gtx-1660s-6gb.jpg"
                                                                     alt="PC Intel i7 10700K/16GB Ram / VGA GTX 1660 Super 6GB">
                                                             </a>
                                                             <a href="pc-intel-i7-10700k-16gb-ram-vga-gtx-1660-super-6gb.html"
                                                                 class="quick-view" data-link-action="quickview">
                                                                 <i class="material-icons search"></i> Quick view
                                                             </a>
-                                                            <!-- <div class="new-pr"><img src="public/images/new.png" alt="">
+                                                            <!-- <div class="new-pr"><img src="assets/images/new.png" alt="">
                                                     </div> -->
-                                                            <div class="sale-pr"><img src="public/images/sale.png"
+                                                            <div class="sale-pr"><img src="assets/images/sale.png"
                                                                     alt="">
                                                             </div>
                                                         </div>
@@ -461,16 +468,16 @@
                                                         <div class="image">
                                                             <a href="cpu-intel-core-i9-10980xe-cascade-lake-x-3-0-ghz-turbo-4-6ghz-up-to-4-8-ghz-24-75-mb-18-cores-36-threads.html"
                                                                 class="thubmail-img"><img
-                                                                    src="public/images/products/processor-box-core-i9-extreme-edition-1x1.png"
+                                                                    src="assets/images/products/processor-box-core-i9-extreme-edition-1x1.png"
                                                                     alt="CPU Intel Core i9-10980XE Cascade Lake-X  (3.0 GHz Turbo 4.6GHz up to 4.8 GHz / 24.75 MB / 18 Cores, 36 Threads)">
                                                             </a>
                                                             <a href="cpu-intel-core-i9-10980xe-cascade-lake-x-3-0-ghz-turbo-4-6ghz-up-to-4-8-ghz-24-75-mb-18-cores-36-threads.html"
                                                                 class="quick-view" data-link-action="quickview">
                                                                 <i class="material-icons search"></i> Quick view
                                                             </a>
-                                                            <!-- <div class="new-pr"><img src="public/images/new.png" alt="">
+                                                            <!-- <div class="new-pr"><img src="assets/images/new.png" alt="">
                                                     </div> -->
-                                                            <div class="sale-pr"><img src="public/images/sale.png"
+                                                            <div class="sale-pr"><img src="assets/images/sale.png"
                                                                     alt="">
                                                             </div>
                                                         </div>
@@ -503,16 +510,16 @@
                                                         <div class="image">
                                                             <a href="pc-amd-ryzen-9-3900x-16gb-ram-vga-rx-550-4gb.html"
                                                                 class="thubmail-img"><img
-                                                                    src="public/images/r9-3900x.png"
+                                                                    src="assets/images/r9-3900x.png"
                                                                     alt="PC AMD Ryzen 9 3900X /16GB Ram/ VGA RX 550 4GB">
                                                             </a>
                                                             <a href="pc-amd-ryzen-9-3900x-16gb-ram-vga-rx-550-4gb.html"
                                                                 class="quick-view" data-link-action="quickview">
                                                                 <i class="material-icons search"></i> Quick view
                                                             </a>
-                                                            <!-- <div class="new-pr"><img src="public/images/new.png" alt="">
+                                                            <!-- <div class="new-pr"><img src="assets/images/new.png" alt="">
                                                     </div> -->
-                                                            <div class="sale-pr"><img src="public/images/sale.png"
+                                                            <div class="sale-pr"><img src="assets/images/sale.png"
                                                                     alt="">
                                                             </div>
                                                         </div>
@@ -558,7 +565,7 @@
                                     <div class="item">
                                         <div class="image">
                                             <a href="cpu-amd-ryzen-7-5800x-nhanh-hon-ca-intel-core-i9-10900k-a323.html"><img
-                                                    src="public/images/products/amd-ryzen-5000-zen-3-vermeer.jpg"
+                                                    src="assets/images/products/amd-ryzen-5000-zen-3-vermeer.jpg"
                                                     alt="CPU AMD Ryzen 7 5800X nhanh hơn cả Intel Core i9-10900K ?">
                                             </a>
                                         </div>
@@ -573,7 +580,7 @@
                                         <div class="image">
                                             <a
                                                 href="evga-geforce-rtx-3090-kingpin-duoc-ep-xung-len-den-2-58ghz-a322.html"><img
-                                                    src="public/images/products/evga-geforce-rtx-3090-kingpin-hybrid.jpg"
+                                                    src="assets/images/products/evga-geforce-rtx-3090-kingpin-hybrid.jpg"
                                                     alt="EVGA GeForce RTX 3090 KINGPIN được ép xung lên đến 2,58GHz">
                                             </a>
                                         </div>
@@ -587,7 +594,7 @@
                                     <div class="item">
                                         <div class="image">
                                             <a href="nvidia-geforce-rtx-3080-gap-su-co-khi-choi-game-a321.html"><img
-                                                    src="public/images/products/rtx-3080.jpg"
+                                                    src="assets/images/products/rtx-3080.jpg"
                                                     alt="NVIDIA GeForce RTX 3080 gặp sự cố khi chơi game">
                                             </a>
                                         </div>
@@ -602,7 +609,7 @@
                                         <div class="image">
                                             <a
                                                 href="gigabyte-gioi-thieu-dong-geforce-rtx-3070-gaming-va-eagle-a320.html"><img
-                                                    src="public/images/products/gv-n3070gaming-oc-8gd-1.jpg"
+                                                    src="assets/images/products/gv-n3070gaming-oc-8gd-1.jpg"
                                                     alt="GIGABYTE giới thiệu dòng GeForce RTX 3070 GAMING và EAGLE">
                                             </a>
                                         </div>
@@ -617,7 +624,7 @@
                                         <div class="image">
                                             <a
                                                 href="gigabyte-xac-nhan-geforce-rtx-3060-8gb-rtx-3070-16gb-va-rtx-3080-20gb-a319.html"><img
-                                                    src="public/images/products/rtx-3080-20gb.png"
+                                                    src="assets/images/products/rtx-3080-20gb.png"
                                                     alt="Gigabyte xác nhận GeForce RTX 3060 8GB, RTX 3070 16GB và RTX 3080 20GB">
                                             </a>
                                         </div>
@@ -655,7 +662,8 @@
                                             </li>
                                             <li><a href="cau-hinh-may-sinh-vien.html">CẤU HÌNH MÁY SINH VIÊN</a>
                                             </li>
-                                            
+                                            <li><a href="may-tinh-chuyen-lam-do-hoa.html">MÁY TÍNH CHUYÊN LÀM ĐỒ HỌA</a>
+                                            </li>
                                         </ul>
                                     </div>
                                     <div class="nav-product">
@@ -665,16 +673,16 @@
                                                     <div class="image">
                                                         <a href="pc-intel-i7-10700-16gb-ram-vga-rtx-2070-super-8gb.html"
                                                             class="thubmail-img"><img
-                                                                src="public/images/products/pc-i7-10700-16gb-rtx2070s-.jpg"
+                                                                src="assets/images/products/pc-i7-10700-16gb-rtx2070s-.jpg"
                                                                 alt="PC Intel i7 10700/16GB Ram / VGA RTX 2070 Super 8GB">
                                                         </a>
                                                         <a href="pc-intel-i7-10700-16gb-ram-vga-rtx-2070-super-8gb.html"
                                                             class="quick-view" data-link-action="quickview">
                                                             <i class="material-icons search"></i> Quick view
                                                         </a>
-                                                        <div class="new-pr"><img src="public/images/new.png" alt="">
+                                                        <div class="new-pr"><img src="assets/images/new.png" alt="">
                                                         </div>
-                                                        <div class="sale-pr"><img src="public/images/sale.png" alt="">
+                                                        <div class="sale-pr"><img src="assets/images/sale.png" alt="">
                                                         </div>
                                                     </div>
                                                     <div class="price-c">
@@ -701,16 +709,16 @@
                                                     <div class="image">
                                                         <a href="pc-intel-i7-10700-16gb-ram-vga-rtx-2060-super-8gb.html"
                                                             class="thubmail-img"><img
-                                                                src="public/images/products/i7-10700-16gb-ram-rtx-2060s-8gb.jpg"
+                                                                src="assets/images/products/i7-10700-16gb-ram-rtx-2060s-8gb.jpg"
                                                                 alt="PC Intel i7 10700/16GB Ram / VGA  RTX 2060 Super 8GB">
                                                         </a>
                                                         <a href="pc-intel-i7-10700-16gb-ram-vga-rtx-2060-super-8gb.html"
                                                             class="quick-view" data-link-action="quickview">
                                                             <i class="material-icons search"></i> Quick view
                                                         </a>
-                                                        <div class="new-pr"><img src="public/images/new.png" alt="">
+                                                        <div class="new-pr"><img src="assets/images/new.png" alt="">
                                                         </div>
-                                                        <div class="sale-pr"><img src="public/images/sale.png" alt="">
+                                                        <div class="sale-pr"><img src="assets/images/sale.png" alt="">
                                                         </div>
                                                     </div>
                                                     <div class="price-c">
@@ -737,16 +745,16 @@
                                                     <div class="image">
                                                         <a href="pc-intel-i7-10700-16gb-ram-gtx-1650-4gb.html"
                                                             class="thubmail-img"><img
-                                                                src="public/images/products/i7-10700-16gb-ram-gtx-1650-4gb.jpg"
+                                                                src="assets/images/products/i7-10700-16gb-ram-gtx-1650-4gb.jpg"
                                                                 alt="PC Intel i7 10700/ 16GB Ram/ GTX 1650 4GB">
                                                         </a>
                                                         <a href="pc-intel-i7-10700-16gb-ram-gtx-1650-4gb.html"
                                                             class="quick-view" data-link-action="quickview">
                                                             <i class="material-icons search"></i> Quick view
                                                         </a>
-                                                        <div class="new-pr"><img src="public/images/new.png" alt="">
+                                                        <div class="new-pr"><img src="assets/images/new.png" alt="">
                                                         </div>
-                                                        <div class="sale-pr"><img src="public/images/sale.png" alt="">
+                                                        <div class="sale-pr"><img src="assets/images/sale.png" alt="">
                                                         </div>
                                                     </div>
                                                     <div class="price-c">
@@ -773,16 +781,16 @@
                                                     <div class="image">
                                                         <a href="pc-intel-i7-10700-ram-16gb-rtx-2060-6gb.html"
                                                             class="thubmail-img"><img
-                                                                src="public/images/products/pc-i7-10700-16gb-rtx-2060-6gb.jpg"
+                                                                src="assets/images/products/pc-i7-10700-16gb-rtx-2060-6gb.jpg"
                                                                 alt="PC Intel i7 10700/ Ram 16GB/ RTX 2060 6GB">
                                                         </a>
                                                         <a href="pc-intel-i7-10700-ram-16gb-rtx-2060-6gb.html"
                                                             class="quick-view" data-link-action="quickview">
                                                             <i class="material-icons search"></i> Quick view
                                                         </a>
-                                                        <div class="new-pr"><img src="public/images/new.png" alt="">
+                                                        <div class="new-pr"><img src="assets/images/new.png" alt="">
                                                         </div>
-                                                        <div class="sale-pr"><img src="public/images/sale.png" alt="">
+                                                        <div class="sale-pr"><img src="assets/images/sale.png" alt="">
                                                         </div>
                                                     </div>
                                                     <div class="price-c">
@@ -809,16 +817,16 @@
                                                     <div class="image">
                                                         <a href="pc-intel-i7-10700-ram16gb-gtx-1660-6gb.html"
                                                             class="thubmail-img"><img
-                                                                src="public/images/products/i7-10700-16gb-ram-gtx-1660-6gb.jpg"
+                                                                src="assets/images/products/i7-10700-16gb-ram-gtx-1660-6gb.jpg"
                                                                 alt="PC Intel i7 10700/ Ram 16GB / GTX 1660 6GB">
                                                         </a>
                                                         <a href="pc-intel-i7-10700-ram16gb-gtx-1660-6gb.html"
                                                             class="quick-view" data-link-action="quickview">
                                                             <i class="material-icons search"></i> Quick view
                                                         </a>
-                                                        <div class="new-pr"><img src="public/images/new.png" alt="">
+                                                        <div class="new-pr"><img src="assets/images/new.png" alt="">
                                                         </div>
-                                                        <div class="sale-pr"><img src="public/images/sale.png" alt="">
+                                                        <div class="sale-pr"><img src="assets/images/sale.png" alt="">
                                                         </div>
                                                     </div>
                                                     <div class="price-c">
@@ -845,16 +853,16 @@
                                                     <div class="image">
                                                         <a href="pc-intel-i5-10400-ram-16gb-vga-gtx-1660-6gb.html"
                                                             class="thubmail-img"><img
-                                                                src="public/images/products/i5-10400-16gb-ram-gtx-16606gb.jpg"
+                                                                src="assets/images/products/i5-10400-16gb-ram-gtx-16606gb.jpg"
                                                                 alt="PC Intel I5 10400/Ram 16GB/ VGA GTX 1660 6GB">
                                                         </a>
                                                         <a href="pc-intel-i5-10400-ram-16gb-vga-gtx-1660-6gb.html"
                                                             class="quick-view" data-link-action="quickview">
                                                             <i class="material-icons search"></i> Quick view
                                                         </a>
-                                                        <div class="new-pr"><img src="public/images/new.png" alt="">
+                                                        <div class="new-pr"><img src="assets/images/new.png" alt="">
                                                         </div>
-                                                        <div class="sale-pr"><img src="public/images/sale.png" alt="">
+                                                        <div class="sale-pr"><img src="assets/images/sale.png" alt="">
                                                         </div>
                                                     </div>
                                                     <div class="price-c">
@@ -881,16 +889,16 @@
                                                     <div class="image">
                                                         <a href="pc-intel-i5-10500-16gb-ram-vga-rx-550-4gb.html"
                                                             class="thubmail-img"><img
-                                                                src="public/images/products/i5-10500-16gb-ram-rx550.jpg"
+                                                                src="assets/images/products/i5-10500-16gb-ram-rx550.jpg"
                                                                 alt="PC Intel I5 10500/16GB Ram/ VGA RX 550 4GB">
                                                         </a>
                                                         <a href="pc-intel-i5-10500-16gb-ram-vga-rx-550-4gb.html"
                                                             class="quick-view" data-link-action="quickview">
                                                             <i class="material-icons search"></i> Quick view
                                                         </a>
-                                                        <div class="new-pr"><img src="public/images/new.png" alt="">
+                                                        <div class="new-pr"><img src="assets/images/new.png" alt="">
                                                         </div>
-                                                        <div class="sale-pr"><img src="public/images/sale.png" alt="">
+                                                        <div class="sale-pr"><img src="assets/images/sale.png" alt="">
                                                         </div>
                                                     </div>
                                                     <div class="price-c">
@@ -917,16 +925,16 @@
                                                     <div class="image">
                                                         <a href="pc-intel-i9-10980xe-32gb-ram-rtx-2070-8gb.html"
                                                             class="thubmail-img"><img
-                                                                src="public/images/products/32.2070.jpg"
+                                                                src="assets/images/products/32.2070.jpg"
                                                                 alt="PC Intel I9 32GB Ram/RTX 2070 8GB">
                                                         </a>
                                                         <a href="pc-intel-i9-10980xe-32gb-ram-rtx-2070-8gb.html"
                                                             class="quick-view" data-link-action="quickview">
                                                             <i class="material-icons search"></i> Quick view
                                                         </a>
-                                                        <div class="new-pr"><img src="public/images/new.png" alt="">
+                                                        <div class="new-pr"><img src="assets/images/new.png" alt="">
                                                         </div>
-                                                        <div class="sale-pr"><img src="public/images/sale.png" alt="">
+                                                        <div class="sale-pr"><img src="assets/images/sale.png" alt="">
                                                         </div>
                                                     </div>
                                                     <div class="price-c">
@@ -953,16 +961,16 @@
                                                     <div class="image">
                                                         <a href="pc-intel-i9-10980xe-32gb-ram-gtx-1660-super-6gb.html"
                                                             class="thubmail-img"><img
-                                                                src="public/images/products/32.1660s.jpg"
+                                                                src="assets/images/products/32.1660s.jpg"
                                                                 alt="PC Intel I9 32GB Ram/GTX 1660 Super 6GB">
                                                         </a>
                                                         <a href="pc-intel-i9-10980xe-32gb-ram-gtx-1660-super-6gb.html"
                                                             class="quick-view" data-link-action="quickview">
                                                             <i class="material-icons search"></i> Quick view
                                                         </a>
-                                                        <div class="new-pr"><img src="public/images/new.png" alt="">
+                                                        <div class="new-pr"><img src="assets/images/new.png" alt="">
                                                         </div>
-                                                        <div class="sale-pr"><img src="public/images/sale.png" alt="">
+                                                        <div class="sale-pr"><img src="assets/images/sale.png" alt="">
                                                         </div>
                                                     </div>
                                                     <div class="price-c">
@@ -989,16 +997,16 @@
                                                     <div class="image">
                                                         <a href="pc-intel-i9-10980xe-32gb-ram-rtx-2060-6gb.html"
                                                             class="thubmail-img"><img
-                                                                src="public/images/products/32.2060.jpg"
+                                                                src="assets/images/products/32.2060.jpg"
                                                                 alt="PC Intel I9 32GB Ram/RTX 2060 6GB">
                                                         </a>
                                                         <a href="pc-intel-i9-10980xe-32gb-ram-rtx-2060-6gb.html"
                                                             class="quick-view" data-link-action="quickview">
                                                             <i class="material-icons search"></i> Quick view
                                                         </a>
-                                                        <div class="new-pr"><img src="public/images/new.png" alt="">
+                                                        <div class="new-pr"><img src="assets/images/new.png" alt="">
                                                         </div>
-                                                        <div class="sale-pr"><img src="public/images/sale.png" alt="">
+                                                        <div class="sale-pr"><img src="assets/images/sale.png" alt="">
                                                         </div>
                                                     </div>
                                                     <div class="price-c">
@@ -1025,7 +1033,7 @@
                                     <div class="category-banner">
                                         <div class="banner">
                                             <a href="pc-workstation.html"><img alt="ads2" class="img-responsive"
-                                                    src="public/images/products/banner-ws02.jpg">
+                                                    src="assets/images/products/banner-ws02.jpg">
                                             </a>
                                         </div>
                                     </div>
@@ -1041,7 +1049,7 @@
                     <div class="row">
                         <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp">
                             <div class="item">
-                                <div class="icon"><img src="public/images/video/4.jpg" alt="SẢN PHẨM CHÍNH HÃNG">
+                                <div class="icon"><img src="assets/images/video/4.jpg" alt="SẢN PHẨM CHÍNH HÃNG">
                                 </div>
                                 <div class="nav-icon">
                                     <h4 class="title">SẢN PHẨM CHÍNH HÃNG</h4>
@@ -1052,7 +1060,7 @@
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp">
                             <div class="item">
-                                <div class="icon"><img src="public/images/video/1.jpg" alt="GIAO HÀNG MIỄN PHÍ">
+                                <div class="icon"><img src="assets/images/video/1.jpg" alt="GIAO HÀNG MIỄN PHÍ">
                                 </div>
                                 <div class="nav-icon">
                                     <h4 class="title">GIAO HÀNG MIỄN PHÍ</h4>
@@ -1063,7 +1071,7 @@
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp">
                             <div class="item">
-                                <div class="icon"><img src="public/images/video/3.jpg" alt="ĐỔI TRẢ NHANH GỌN">
+                                <div class="icon"><img src="assets/images/video/3.jpg" alt="ĐỔI TRẢ NHANH GỌN">
                                 </div>
                                 <div class="nav-icon">
                                     <h4 class="title">ĐỔI TRẢ NHANH GỌN</h4>
@@ -1074,7 +1082,7 @@
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp">
                             <div class="item">
-                                <div class="icon"><img src="public/images/video/2.jpg" alt="BẢO HÀNH SIÊU TỐC">
+                                <div class="icon"><img src="assets/images/video/2.jpg" alt="BẢO HÀNH SIÊU TỐC">
                                 </div>
                                 <div class="nav-icon">
                                     <h4 class="title">BẢO HÀNH SIÊU TỐC</h4>
@@ -1086,3 +1094,5 @@
                     </div>
                 </div>
             </section>
+        </div>
+@endsection

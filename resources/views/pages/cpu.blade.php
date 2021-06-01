@@ -1,4 +1,7 @@
-
+@extends('index')
+@section('content')
+<div id="main" class="wrapper main-product">
+            @include('layout.sidebar')
             <div class="bres">
                 <div class="container">
                     <ul>
@@ -265,7 +268,7 @@
                                     }
 
                                     .fillter-label.tpInputLabel.checked label::before {
-                                        background: url('public/images/checked.png');
+                                        background: url('assets/images/checked.png');
                                         border: 0;
                                     }
                                 </style>
@@ -335,11 +338,11 @@
                                     <div class="item-sb">
                                         <div class="support item">
                                             <div class="images">
-                                                <img src="public/images/suport.png" alt="">
+                                                <img src="assets/images/suport.png" alt="">
                                             </div>
                                             <div class="holine">
                                                 <div class="icon">
-                                                    <img src="public/images/icon-holine.png" alt="">
+                                                    <img src="assets/images/icon-holine.png" alt="">
                                                 </div>
                                                 <div class="nav-icon">
                                                     <span class="sp1">Hotline</span>
@@ -358,7 +361,7 @@
                                             <div class="item">
                                                 <div class="image">
                                                     <a href="pc-intel-i7-10700-ram-16gb-rtx-2060-6gb.html"><img
-                                                            src="public/images/products/untitled-29.jpg" alt="">
+                                                            src="assets/images/products/untitled-29.jpg" alt="">
                                                     </a>
                                                 </div>
                                                 <div class="nav-image">
@@ -385,7 +388,7 @@
                                                 <div class="image">
                                                     <a
                                                         href="cpu-amd-ryzen-7-5800x-nhanh-hon-ca-intel-core-i9-10900k-a323.html"><img
-                                                            src="public/images/products/amd-ryzen-5000-zen-3-vermeer.jpg"
+                                                            src="assets/images/products/amd-ryzen-5000-zen-3-vermeer.jpg"
                                                             alt="CPU AMD Ryzen 7 5800X nhanh hơn cả Intel Core i9-10900K ?">
                                                     </a>
                                                 </div>
@@ -418,7 +421,7 @@
                                                     <div class="image">
                                                         <a href="cpu-intel-core-i9-9900-3-1-upto-5-0ghz-8c16t-16mb-coffee-lake.html"
                                                             class="thubmail-img"><img
-                                                                src="public/images/products/9900.jpg"
+                                                                src="assets/images/products/9900.jpg"
                                                                 alt="CPU Intel Core i9-9900 (3.1 GHz turbo upto 5.0GHz/ 8 nhân 16 luồng/ 16MB/ Coffee Lake)">
                                                         </a>
                                                         <div class="new-pr"><img
@@ -450,12 +453,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-3 col-sm-6 col-xs-6 wow fadeInUp"
+                                            {{-- <div class="col-md-3 col-sm-6 col-xs-6 wow fadeInUp"
                                                 style="visibility: visible; animation-name: fadeInUp;">
                                                 <div class="item-product">
                                                     <div class="image">
                                                         <a href="cpu-amd-ryzen-9-5950x.html" class="thubmail-img"><img
-                                                                src="public/images/products/ryzen-9-5950x.jpg"
+                                                                src="assets/images/products/ryzen-9-5950x.jpg"
                                                                 alt="CPU AMD Ryzen 9 5950X (3.4 GHz Upto 4.9GHz / 72MB / 16 Cores, 32 Threads / 105W / Socket AM4)">
                                                         </a>
                                                         <div class="new-pr"><img
@@ -491,7 +494,7 @@
                                                     <div class="image">
                                                         <a href="cpu-amd-ryzen-9-5900x-3-7ghz-4-8ghz-max-boos-70mb-cache-12-cores-24-threads-105w-socket-am4.html"
                                                             class="thubmail-img"><img
-                                                                src="public/images/products/5900x.jpg"
+                                                                src="assets/images/products/5900x.jpg"
                                                                 alt="CPU AMD Ryzen 9 5900X (3.7 GHz Upto 4.8GHz / 70MB / 12 Cores, 24 Threads / 105W / Socket AM4)">
                                                         </a>
                                                         <div class="new-pr"><img
@@ -527,7 +530,7 @@
                                                 <div class="item-product">
                                                     <div class="image">
                                                         <a href="cpu-amd-ryzen-7-5800x.html" class="thubmail-img"><img
-                                                                src="public/images/products/5800x.jpg"
+                                                                src="assets/images/products/5800x.jpg"
                                                                 alt="CPU AMD Ryzen 7 5800X (3.8 GHz Upto 4.7GHz / 36MB / 8 Cores, 16 Threads / 105W / Socket AM4)">
                                                         </a>
                                                         <div class="new-pr"><img
@@ -562,7 +565,7 @@
                                                 <div class="item-product">
                                                     <div class="image">
                                                         <a href="cpu-amd-ryzen-5-5600x.html" class="thubmail-img"><img
-                                                                src="public/images/products/ryzen-5-5600x.jpg"
+                                                                src="assets/images/products/ryzen-5-5600x.jpg"
                                                                 alt="CPU AMD Ryzen 5 5600X (3.7 GHz Upto 4.6GHz / 35MB / 6 Cores, 12 Threads / 65W / Socket AM4)">
                                                         </a>
                                                         <div class="new-pr"><img
@@ -598,7 +601,7 @@
                                                     <div class="image">
                                                         <a href="cpu-intel-core-i9-10900k-avengers-edition-3-7ghz-turbo-up-to-5-3ghz-10-nhan-20-luong-20mb-cache-125w.html"
                                                             class="thubmail-img"><img
-                                                                src="public/images/products/intel-core-i9-10900k-10c-20t-20mb-3.70-5.30-ghz-avengers-edition-box-chinh-hang.jpg"
+                                                                src="assets/images/products/intel-core-i9-10900k-10c-20t-20mb-3.70-5.30-ghz-avengers-edition-box-chinh-hang.jpg"
                                                                 alt="CPU Intel Core i9 10900K Avengers Edition (3.7GHz turbo up to 5.3GHz, 10 nhân 20 luồng, 20MB Cache, 125W)">
                                                         </a>
                                                         <div class="new-pr"><img
@@ -635,7 +638,7 @@
                                                     <div class="image">
                                                         <a href="cpu-intel-core-i7-10700k-avengers-edition-3-8ghz-turbo-up-to-5-1ghz-8-nhan-16-luong-16mb-cache-125w.html"
                                                             class="thubmail-img"><img
-                                                                src="public/images/products/cpu-intel-core-i7-10700k-avengers-edition-01.jpg"
+                                                                src="assets/images/products/cpu-intel-core-i7-10700k-avengers-edition-01.jpg"
                                                                 alt="CPU Intel Core i7 10700K Avengers Edition (3.8GHz turbo up to 5.1GHz, 8 nhân 16 luồng, 16MB Cache, 125W)">
                                                         </a>
                                                         <div class="new-pr"><img
@@ -673,7 +676,7 @@
                                                     <div class="image">
                                                         <a href="cpu-intel-core-i9-10850k-avengers-edition-3-6ghz-turbo-up-to-5-2ghz-10-nhan-20-luong-20mb-cache-95w.html"
                                                             class="thubmail-img"><img
-                                                                src="public/images/products/cpu-intel-core-i9-10850k-avengers-edition-02.jpg"
+                                                                src="assets/images/products/cpu-intel-core-i9-10850k-avengers-edition-02.jpg"
                                                                 alt="CPU Intel Core i9 10850K Avengers Edition (3.6GHz turbo up to 5.2GHz, 10 nhân 20 luồng, 20MB Cache, 95W)">
                                                         </a>
                                                         <div class="new-pr"><img
@@ -711,7 +714,7 @@
                                                     <div class="image">
                                                         <a href="cpu-amd-ryzen-5-3600xt-3-8-ghz-turbo-upto-4-5ghz-35mb-6-cores-12-threads-95w-socket-am4.html"
                                                             class="thubmail-img"><img
-                                                                src="public/images/products/cpu-ryzen-3600xt.jpg"
+                                                                src="assets/images/products/cpu-ryzen-3600xt.jpg"
                                                                 alt="CPU AMD Ryzen 5 3600XT (3.8 GHz turbo upto 4.5GHz / 35MB / 6 Cores, 12 Threads / 95W / Socket AM4)">
                                                         </a>
                                                         <div class="new-pr"><img
@@ -748,7 +751,7 @@
                                                     <div class="image">
                                                         <a href="cpu-intel-core-i9-10850k-3-6ghz-turbo-up-to-5-2ghz-10-core-20-threads-20mb-cache.html"
                                                             class="thubmail-img"><img
-                                                                src="public/images/products/cpu-intel-core-i9-10850k.jpg"
+                                                                src="assets/images/products/cpu-intel-core-i9-10850k.jpg"
                                                                 alt="CPU Intel Core i9 10850K (3.6GHz turbo up to 5.2GHz, 10 core 20 Threads , 20MB Cache)">
                                                         </a>
                                                         <div class="new-pr"><img
@@ -785,7 +788,7 @@
                                                     <div class="image">
                                                         <a href="cpu-amd-ryzen-7-3800xt-3-8ghz-boost-4-7ghz-8cores-16-threads-32mb-cache-105w-socket-am4.html"
                                                             class="thubmail-img"><img
-                                                                src="public/images/products/3800xt.png"
+                                                                src="assets/images/products/3800xt.png"
                                                                 alt="CPU AMD Ryzen 7 3800XT (3.8GHz Boost 4.7GHz /8cores / 16 threads / 32MB Cache; 105W; Socket AM4)">
                                                         </a>
                                                         <div class="new-pr"><img
@@ -822,7 +825,7 @@
                                                     <div class="image">
                                                         <a href="cpu-amd-ryzen-9-3900xt-3-8ghz-boost-4-7ghz-12-cores-24-threads-64mb-cache-105w-socket-am4.html"
                                                             class="thubmail-img"><img
-                                                                src="public/images/products/3900xt.png"
+                                                                src="assets/images/products/3900xt.png"
                                                                 alt="CPU AMD Ryzen 9 3900XT (3.8GHz Boost 4.7GHz /12 cores / 24 threads / 64MB Cache; 105W; Socket AM4)">
                                                         </a>
                                                         <div class="new-pr"><img
@@ -859,7 +862,7 @@
                                                     <div class="image">
                                                         <a href="cpu-intel-core-i3-10100-3-6ghz-turbo-up-to-4-3ghz-4-nhan-8-luong-6mb-cache-65w.html"
                                                             class="thubmail-img"><img
-                                                                src="public/images/products/52615-intel-core-i3-10100.jpg"
+                                                                src="assets/images/products/52615-intel-core-i3-10100.jpg"
                                                                 alt="CPU Intel Core i3 10100 (3.6GHz turbo up to 4.3GHz, 4 nhân 8 luồng, 6MB Cache, 65W)">
                                                         </a>
                                                         <div class="new-pr"><img
@@ -897,7 +900,7 @@
                                                     <div class="image">
                                                         <a href="cpu-intel-core-i5-10400-2-9ghz-turbo.html"
                                                             class="thubmail-img"><img
-                                                                src="public/images/products/10400.jpg"
+                                                                src="assets/images/products/10400.jpg"
                                                                 alt="CPU Intel Core i5 10400 (2.9 GHz turbo up to 4.3 GHz, 6 core 12 Threads , 12MB Cache, 65W)">
                                                         </a>
                                                         <div class="new-pr"><img
@@ -935,7 +938,7 @@
                                                     <div class="image">
                                                         <a href="cpu-intel-core-i7-10700k.html"
                                                             class="thubmail-img"><img
-                                                                src="public/images/products/10700k(1).jpg"
+                                                                src="assets/images/products/10700k(1).jpg"
                                                                 alt="CPU Intel Core i7 10700K (3.8GHz turbo up to 5.1GHz, 8 core 16 Threads , 16MB Cache, 125W)">
                                                         </a>
                                                         <div class="new-pr"><img
@@ -970,7 +973,7 @@
                                                 <div class="item-product">
                                                     <div class="image">
                                                         <a href="cpu-intel-core-i7-10700.html" class="thubmail-img"><img
-                                                                src="public/images/products/10700.jpg"
+                                                                src="assets/images/products/10700.jpg"
                                                                 alt="CPU Intel Core i7 10700 (2.9GHz turbo up to 4.8GHz, 8 core 16 Threads , 16MB Cache, 65W)">
                                                         </a>
                                                         <div class="new-pr"><img
@@ -1006,7 +1009,7 @@
                                                 <div class="item-product">
                                                     <div class="image">
                                                         <a href="cpu-intel-core-i9-10900.html" class="thubmail-img"><img
-                                                                src="public/images/products/intel-core-i9-comet-lake-s.jpg"
+                                                                src="assets/images/products/intel-core-i9-comet-lake-s.jpg"
                                                                 alt="CPU Intel Core i9 10900 (2.8GHz turbo up to 5.2GHz, 10 core 20 Threads , 20MB Cache, 65W)">
                                                         </a>
                                                         <div class="new-pr"><img
@@ -1043,7 +1046,7 @@
                                                     <div class="image">
                                                         <a href="cpu-intel-core-i9-10900k.html"
                                                             class="thubmail-img"><img
-                                                                src="public/images/products/10900k(3).jpg"
+                                                                src="assets/images/products/10900k(3).jpg"
                                                                 alt="CPU Intel Core i9 10900K (3.7GHz turbo up to 5.3GHz, 10 core 20 Threads , 20MB Cache, 125W)">
                                                         </a>
                                                         <div class="new-pr"><img
@@ -1080,7 +1083,7 @@
                                                     <div class="image">
                                                         <a href="cpu-intel-core-i5-10600k.html"
                                                             class="thubmail-img"><img
-                                                                src="public/images/products/10600k.jpg"
+                                                                src="assets/images/products/10600k.jpg"
                                                                 alt="CPU Intel Core i5 10600K (4.1 GHz turbo up to 4.8 GHz, 6 core 12 Threads , 12MB Cache, 125W)">
                                                         </a>
                                                         <div class="new-pr"><img
@@ -1116,7 +1119,7 @@
                                                 <div class="item-product">
                                                     <div class="image">
                                                         <a href="cpu-intel-core-i5-10600.html" class="thubmail-img"><img
-                                                                src="public/images/products/10600.jpg"
+                                                                src="assets/images/products/10600.jpg"
                                                                 alt="CPU Intel Core i5 10600 (3.3GHz turbo up to 4.8 GHz, 6 core 12 Threads , 12MB Cache, 65W)">
                                                         </a>
                                                         <div class="new-pr"><img
@@ -1146,7 +1149,7 @@
                                                             hàng</a>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> --}}
                                         </div>
                                         <div class="pagenavi">
                                             <ul>
@@ -1215,4 +1218,5 @@
                     </div>
                 </div>
             </section>
- 
+@endsection
+           

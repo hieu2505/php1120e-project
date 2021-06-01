@@ -6,13 +6,12 @@
                                 <div class="top-category">
                                     <h3 class="title-category">DANH MỤC SẢN PHẨM<i class="fa fa-bars"></i></h3>
                                 </div>
-                                <div class="nav-category-home">
+                                <div class="nav-category-home ">
                                     <ul>
                                         <li>
                                             <a href="pc-workstation.html" style="width: calc(100% - 30px);"><img
-                                                    src="public/images/logo/img-495041.png" alt="PC WORKSTATION">PC
+                                                    src="assets/images/logo/img-495041.png" alt="PC WORKSTATION">PC
                                                 WORKSTATION</a>
-
                                             <i class="fa fa-plus css-icon-plus cssssss" style="max-width: 30px;"></i>
                                             <div class="vertical-dropdown-menu">
                                                 <div class="row">
@@ -37,16 +36,16 @@
                                             </div>
                                         </li>
                                         <li>
-                                            <a href="{{url('/product')}}" style="width: calc(100% - 30px);"><img
-                                                    src="public/images/logo/cpu.jpg" alt="CPU - BỘ VI XỬ LÝ">CPU - BỘ VI
+                                            <a href="cpu" style="width: calc(100% - 30px);"><img
+                                                    src="assets/images/logo/cpu.jpg" alt="CPU - BỘ VI XỬ LÝ">CPU - BỘ
+                                                VI
                                                 XỬ LÝ</a>
-
                                             <i class="fa fa-plus css-icon-plus cssssss" style="max-width: 30px;"></i>
                                             <div class="vertical-dropdown-menu">
                                                 <div class="row">
                                                     <div class="vertical-groups">
                                                         <div class="mega-group">
-                                                            <!-- <h4 class="mega-group-header"><span>Thương hiệu</span></h4> -->
+                                                            <h4 class="mega-group-header"><span>Thương hiệu</span></h4>
                                                             <ul class="group-link-default">
                                                                 <li><a href="cpu-intel.html">CPU Intel</a></li>
                                                                 <li><a href="cpu-amd.html">CPU AMD</a></li>
@@ -58,27 +57,23 @@
                                         </li>
                                         <li>
                                             <a href="pc-gaming.html" style=""><img
-                                                    src="public/images/logo/computer-game-computer-game-gaming-pc-playing-18.png"
+                                                    src="assets/images/logo/computer-game-computer-game-gaming-pc-playing-18.png"
                                                     alt="PC GAMING">PC GAMING</a>
-
                                         </li>
                                         <li>
                                             <a href="main-bo-mach-chu.html" style=""><img
-                                                    src="public/images/logo/mainboard.png"
+                                                    src="assets/images/logo/mainboard.png"
                                                     alt="MAINBOARD - BO MẠCH CHỦ">MAINBOARD - BO MẠCH CHỦ</a>
-
                                         </li>
                                         <li>
                                             <a href="vga-card-man-hinh.html" style=""><img
-                                                    src="public/images/logo/vga.png" alt="VGA - CARD MÀN HÌNH">VGA -
+                                                    src="assets/images/logo/vga.png" alt="VGA - CARD MÀN HÌNH">VGA -
                                                 CARD MÀN HÌNH</a>
-
                                         </li>
                                         <li>
                                             <a href="linh-kien-may-tinh.html" style="width: calc(100% - 30px);"><img
-                                                    src="public/images/logo/computer-chip2-2-512.png"
+                                                    src="assets/images/logo/computer-chip2-2-512.png"
                                                     alt="LINH KIỆN MÁY TÍNH">LINH KIỆN MÁY TÍNH</a>
-
                                             <i class="fa fa-plus css-icon-plus cssssss" style="max-width: 30px;"></i>
                                             <div class="vertical-dropdown-menu">
                                                 <div class="row">
@@ -109,15 +104,13 @@
                                         </li>
                                         <li>
                                             <a href="man-hinh-may-tinh.html" style=""><img
-                                                    src="public/images/logo/kisspng-imac-computer-icons-desktop-computers-monitors-5ad21ec6060fd8.1982121415237198780248.jpg"
+                                                    src="assets/images/logo/kisspng-imac-computer-icons-desktop-computers-monitors-5ad21ec6060fd8.1982121415237198780248.jpg"
                                                     alt="MÀN HÌNH MÁY TÍNH">MÀN HÌNH MÁY TÍNH</a>
-
                                         </li>
                                         <li>
                                             <a href="gaming-gear-cooling.html" style="width: calc(100% - 30px);"><img
-                                                    src="public/images/logo/kisspng-computer-keyboard-computer-icons-vector-graphics-c-shortcut-key-svg-png-icon-free-download-14-333-5c684fd0b7feb9.0934393015503400487537.jpg"
+                                                    src="assets/images/logo/kisspng-computer-keyboard-computer-icons-vector-graphics-c-shortcut-key-svg-png-icon-free-download-14-333-5c684fd0b7feb9.0934393015503400487537.jpg"
                                                     alt="TẢN NHIỆT - GAMING GEAR">TẢN NHIỆT - GAMING GEAR</a>
-
                                             <i class="fa fa-plus css-icon-plus cssssss" style="max-width: 30px;"></i>
                                             <div class="vertical-dropdown-menu">
                                                 <div class="row">
@@ -138,9 +131,8 @@
                                         </li>
                                         <li>
                                             <a href="thiet-bi-luu-tru.html" style="width: calc(100% - 30px);"><img
-                                                    src="public/images/logo/paintball-bag-case-storage-equipment-128.png"
+                                                    src="assets/images/logo/paintball-bag-case-storage-equipment-128.png"
                                                     alt="THIẾT BỊ LƯU TRỮ">THIẾT BỊ LƯU TRỮ</a>
-
                                             <i class="fa fa-plus css-icon-plus cssssss" style="max-width: 30px;"></i>
                                             <div class="vertical-dropdown-menu">
                                                 <div class="row">
@@ -160,9 +152,8 @@
                                         </li>
                                         <li>
                                             <a href="thiet-bi-mang.html" style="width: calc(100% - 30px);"><img
-                                                    src="public/images/logo/phat-wifi.png" alt="THIẾT BỊ MẠNG">THIẾT BỊ
+                                                    src="assets/images/logo/phat-wifi.png" alt="THIẾT BỊ MẠNG">THIẾT BỊ
                                                 MẠNG</a>
-
                                             <i class="fa fa-plus css-icon-plus cssssss" style="max-width: 30px;"></i>
                                             <div class="vertical-dropdown-menu">
                                                 <div class="row">
@@ -182,7 +173,6 @@
                                     </ul>
                                 </div>
                             </div>
-
                         </div>
                         <div class="col-md-9 col-sm-12 col-xs-12 col-edit-4">
                             <div id="main-menu1">
@@ -190,7 +180,6 @@
                                     <li>
                                         <a href="/pc-workstation.html">
                                             <div class="nav_horizontal_item">
-
                                                 <div class="nav_horizontal_text">
                                                     <p class="newBigText">PC Đồ Họa
                                                 </div>
@@ -200,7 +189,6 @@
                                     <li>
                                         <a href="cpu-bo-vi-xu-ly.html">
                                             <div class="nav_horizontal_item">
-
                                                 <div class="nav_horizontal_text">
                                                     <p class="newBigText">CPU Cao Cấp
                                                 </div>
@@ -210,7 +198,6 @@
                                     <li>
                                         <a href="/giai-phap">
                                             <div class="nav_horizontal_item">
-
                                                 <div class="nav_horizontal_text">
                                                     <p class="newBigText">Giải Pháp
                                                 </div>
@@ -224,16 +211,13 @@
                                                 <ul class="sub-menu level3">
                                                     <li>
                                                         <a href="/3d-max-ac84" title="3D MAX">3D MAX</a>
-
                                                     </li>
                                                     <li>
                                                         <a href="/unreal-engine-4-ac85" title="Unreal Engine 4">Unreal
                                                             Engine 4</a>
-
                                                     </li>
                                                     <li>
                                                         <a href="/lumion-ac86" title="Lumion">Lumion</a>
-
                                                     </li>
                                                 </ul>
                                             </li>
@@ -245,17 +229,14 @@
                                                     <li>
                                                         <a href="/after-effect-ac87" title="After Effect">After
                                                             Effect</a>
-
                                                     </li>
                                                     <li>
                                                         <a href="/davinci-resolve-ac88" title="DaVinci Resolve">DaVinci
                                                             Resolve</a>
-
                                                     </li>
                                                     <li>
                                                         <a href="/premiere-pro-ac91" title="Premiere Pro">Premiere
                                                             Pro</a>
-
                                                     </li>
                                                 </ul>
                                             </li>
@@ -266,12 +247,10 @@
                                                 <ul class="sub-menu level3">
                                                     <li>
                                                         <a href="/autocad-ac89" title="AutoCAD">AutoCAD</a>
-
                                                     </li>
                                                     <li>
                                                         <a href="/revit-etabs-ac90" title="Revit/ Etabs">Revit/
                                                             Etabs</a>
-
                                                     </li>
                                                 </ul>
                                             </li>
@@ -280,7 +259,6 @@
                                     <li>
                                         <a href="/danh-sach-tin-tuc.html">
                                             <div class="nav_horizontal_item">
-
                                                 <div class="nav_horizontal_text">
                                                     <p class="newBigText">Tin Tức
                                                 </div>
@@ -293,3 +271,74 @@
                     </div>
                 </div>
             </div>
+            <style type="text/css">
+                #main-menu1 ul li {
+                    position: relative;
+                }
+
+                #main-menu1 ul.sub-menu {
+                    display: none;
+                    position: absolute;
+                    width: 250px;
+                    background-color: #333333;
+                    top: 100%;
+                    z-index: 999999;
+                    margin-top: 0px;
+                    padding-top: 0px;
+                }
+
+                #main-menu1 ul.sub-menu i {
+                    float: right;
+                    color: #fff;
+                }
+
+                #main-menu1 ul.sub-menu.level3 {
+                    top: 0%;
+                    left: 100%;
+                    display: none !important;
+                }
+
+                #main-menu1 ul.sub-menu li {
+                    padding: 10px 15px;
+                    border-bottom: 1px dashed #333333;
+                }
+
+                #main-menu1 ul.sub-menu li a {
+                    color: #fff;
+                }
+
+                #main-menu1 ul.sub-menu li {
+                    width: 100%;
+                }
+
+                #main-menu1 li:hover .sub-menu {
+                    display: block;
+                }
+
+                #main-menu1 li:hover .sub-menu:hover {
+                    display: block;
+                }
+
+                #main-menu1 ul.sub-menu li:hover ul.sub-menu.level3 {
+                    display: block !important;
+                }
+
+                .hello {
+                    display: block !important;
+                }
+
+                .css-icon-plus.cssssss {
+                    display: block;
+                }
+
+                /*  .nav-category-home ul li:hover i.css-icon-plus.cssssss:before{
+                    content: ;
+                    } */
+            </style>
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $(".top-category").click(function () {
+                        $(".nav-category-home").slideToggle();
+                    });
+                });
+            </script>

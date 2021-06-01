@@ -1,10 +1,10 @@
-<script type="text/javascript" src="public/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="public/js/wow.min.js"></script>
-    <script type="text/javascript" src="public/js/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="public/js/BannerFloat.js"></script>
-    <!-- <script type="text/javascript" src="public/js/cloud-zoom.js"></script> -->
-    <script src="public/js/hc-offcanvas-nav.js?ver=3.3.0"></script>
-    <script type="text/javascript" src="public/js/buong.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/wow.min.js"></script>
+    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="assets/js/BannerFloat.js"></script>
+    <!-- <script type="text/javascript" src="assets/js/cloud-zoom.js"></script> -->
+    <script src="assets/js/hc-offcanvas-nav.js?ver=3.3.0"></script>
+    <script type="text/javascript" src="assets/js/buong.js"></script>
     <script>
         //hieu ung wow------------------------------------------
         wow = new WOW({
@@ -209,122 +209,4 @@
             });
         });
 
-    </script>
-<!--  -->
-<script type="text/javascript" charset="utf-8" async defer>
-            $('#main-menu1 > ul > li').attr('style', 'width: calc(100% / ' + $('#main-menu1 > ul > li').length + ')');
-
-            if (jQuery(window).width() <= 768) {
-                $('.main-slider').attr('style', "padding-top: " + $('.nav-category-home').height() + "px");
-                $('.css-icon-plus').click(function () {
-                    if (jQuery(this).next().css('display') == 'none') {
-
-                        jQuery(this).next().attr('style', 'opacity: 1;display: block;visibility: inherit;position: inherit;left: 0px;');
-
-                        // jQuery(this).next().css('display','block');
-
-                        jQuery(this).addClass('show');
-
-                    } else {
-
-                        jQuery(this).next().attr('style', 'opacity: 0;display: none;visibility: hidden;position: absolute;');
-                        // jQuery(this).next().css('display','none');
-
-                        jQuery(this).removeClass('show');
-
-                    }
-                    // $(this).parent().find('.vertical-dropdown-menu').attr('style', 'opacity: 1;display: block;visibility: inherit;');
-                });
-            }
-            jQuery('.fillter_bl .content_fillter [class^="group-fillter fill-key-"] .attribute-title').click(function (e) {
-
-                e.preventDefault();
-
-                if (jQuery(this).next().css('display') == 'none') {
-
-                    jQuery(this).next().css('display', 'block');
-
-                    jQuery(this).addClass('show');
-
-                } else {
-
-                    jQuery(this).next().css('display', 'none');
-
-                    jQuery(this).removeClass('show');
-
-                }
-
-                return false;
-
-            });
-
-
-    // jQuery(window).resize(function() {
-    //     if(jQuery(window).width() <= 768){
-    //         jQuery('.fillter_bl .content_fillter [class^="group-fillter fill-key-"] .attribute-title').click(function(e){
-
-    //             e.preventDefault();
-
-    //             if(jQuery(this).next().css('display') == 'none'){
-
-    //                 jQuery(this).next().css('display','block');
-
-    //                 jQuery(this).addClass('show');
-
-    //             }else{
-
-    //                 jQuery(this).next().css('display','none');
-
-    //                 jQuery(this).removeClass('show');
-
-    //             }
-
-    //             return false;
-
-    //         });
-    //     }
-    // });
-    </script>
-<!--  -->
-
-    <script>
-            window.fbAsyncInit = function () {
-                FB.init({
-                    xfbml: true,
-                    version: 'v4.0'
-                });
-            };
-
-            (function (d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) return;
-                js = d.createElement(s); js.id = id;
-                js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-                fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
-    </script>
-<!--  -->
-    <script>
-            !function (f, b, e, v, n, t, s) {
-                if (f.fbq) return; n = f.fbq = function () {
-                    n.callMethod ?
-                        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-                };
-                if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-                n.queue = []; t = b.createElement(e); t.async = !0;
-                t.src = v; s = b.getElementsByTagName(e)[0];
-                s.parentNode.insertBefore(t, s)
-            }(window, document, 'script',
-                'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '893478067706055');
-            fbq('track', 'PageView');
-        </script>
-<!--  -->
-    <script>(function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.2&appId=456763814831300&autoLogAppEvents=1';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
     </script>

@@ -12,37 +12,37 @@
                                 <div class="slider-large owl-carousel">
                                     <div class="item" data-hash="one0">
                                         <a href="pc-workstation.html"> <img
-                                                src="public/images/slide/banner/702x348-05.jpg" alt="PC WORKSTATION ">
+                                                src="assets/images/slide/banner/702x348-05.jpg" alt="PC WORKSTATION ">
                                         </a>
                                     </div>
                                     <div class="item" data-hash="one1">
                                         <a href="chinh-sach-bao-hanh.html"> <img
-                                                src="public/images/slide/banner/702x348-06.jpg" alt="BẢO HÀNH ">
+                                                src="assets/images/slide/banner/702x348-06.jpg" alt="BẢO HÀNH ">
                                         </a>
                                     </div>
                                     <div class="item" data-hash="one2">
                                         <a href="huong-dan-thanh-toan.html"> <img
-                                                src="public/images/slide/banner/banner-web-tra-gop.png" alt="TRẢ GÓP">
+                                                src="assets/images/slide/banner/banner-web-tra-gop.png" alt="TRẢ GÓP">
                                         </a>
                                     </div>
                                     <div class="item" data-hash="one3">
                                         <a href="tim-kiem.html?key=RTX+30"> <img
-                                                src="public/images/slide/banner/anh-slide.jpg" alt="RTX 3000 Series">
+                                                src="assets/images/slide/banner/anh-slide.jpg" alt="RTX 3000 Series">
                                         </a>
                                     </div>
                                     <div class="item" data-hash="one4">
-                                        <a href="cpu-intel.html"> <img src="public/images/slide/banner/702x348-01.jpg"
+                                        <a href="cpu-intel.html"> <img src="assets/images/slide/banner/702x348-01.jpg"
                                                 alt="Intel Gen 10th">
                                         </a>
                                     </div>
                                     <div class="item" data-hash="one5">
                                         <a href="tim-kiem.html?key=3900x"> <img
-                                                src="public/images/slide/banner/702x348-07.jpg" alt="RYZEN 9 3900X">
+                                                src="assets/images/slide/banner/702x348-07.jpg" alt="RYZEN 9 3900X">
                                         </a>
                                     </div>
                                     <div class="item" data-hash="one6">
                                         <a href="gaming-gear-cooling.html"> <img
-                                                src="public/images/slide/banner/63e0d8b8b0e34dbd14f2.jpg"
+                                                src="assets/images/slide/banner/63e0d8b8b0e34dbd14f2.jpg"
                                                 alt="GAMING GEAR">
                                         </a>
                                     </div>
@@ -75,7 +75,7 @@
                                 allowfullscreen></iframe>
                             <div class="sale">
                                 <a href="tim-kiem.html?key=VGA+giga"><img
-                                        src="public/images/square-rtx-30-family-header-photo-1200x1200-gbt.jpg" alt="">
+                                        src="assets/images/square-rtx-30-family-header-photo-1200x1200-gbt.jpg" alt="">
                                 </a>
                             </div>
                         </div>
